@@ -49,7 +49,8 @@ def SmartVehicle(Vehicle):
 
 
 class VehicleDB:
-	def __init__(self):
+	def __init__(self, vehicle):
+		self.vehicle = vehicle
 		pass
 
 	def save_to_db(self):
