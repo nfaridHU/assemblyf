@@ -13,6 +13,10 @@ class Vehicle:
 		pass
 
 	def alert_emergency(self):
+		# if self is smart
+			# do smart alrt
+		# else
+			# minimum alert
 		pass
 
 
@@ -30,12 +34,17 @@ class Vehicle:
 	def drive(self):
 		pass
 
+	def alert_emergency(self):
+		# minimum alert
+		pass
+
 
 def SmartVehicle(Vehicle):
 	def __init__(self):
 		pass
 
 	def alert_emergency(self):
+		# smart alert
 		pass
 
 
